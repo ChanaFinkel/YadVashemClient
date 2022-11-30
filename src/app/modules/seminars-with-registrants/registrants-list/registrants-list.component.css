@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+}
+
+.comment {
+    color: orange
+}
+
+.button {
+    background-color: rgb(200, 206, 211);
+    /* margin-left: 2%; */
+    margin-right: 2%;
+}
+
+.search-input {
+    width: 15%;
+
+}
+
+.print {
+    margin-right: 2%;
+}
+
+.name {
+    color: blue;
+}

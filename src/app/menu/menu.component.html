@@ -1,0 +1,39 @@
+<p dir="rtl">
+  <mat-toolbar color="primary" class="main-navbar">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <img mat-card-image src="\assets\images\Logo.jpg">
+    </button>
+    <span>תהל</span>
+    <span class="example-spacer"></span>
+    <mat-icon>settings</mat-icon>
+    <span>הגדרות</span>
+    <mat-icon class="description">description</mat-icon>
+    <mat-icon class="refresh">refresh</mat-icon>
+    <!-- The username should change depending on the user connected to the system and can be retrieved from claims in token -->
+    <span class="person">שלום ל </span>
+    <mat-icon> person_pin</mat-icon>
+  </mat-toolbar>
+
+  <mat-toolbar dir="rtl" class="secondary-navbar">
+    <div>
+      <mat-icon>menu</mat-icon>
+      <a mat-button class="menu" [routerLink]="'/'"> מוסדות </a>
+      <a mat-button class="menu" [routerLink]="'/'"> חשבונות </a>
+      <a mat-button class="menu" [routerLink]="'/'"> נותני שירות </a>
+      <a mat-button class="menu" [routerLink]="'/'"> משאבים</a>
+      <a mat-button class="menu" [routerLink]="'/'"> הזמנות </a>
+      <a mat-button class="menu" [routerLink]="'/'"> רשימת נשרמים </a>
+      <a mat-button class="menu" [routerLink]="'/'"> השתלמויות </a>
+      <a mat-button class="menu" [routerLink]="'/'"> סמינרים </a>
+      <a mat-button class="menu" [routerLink]="'/'"> כנסים </a>
+      <a mat-button class="menu" [routerLink]="'/'"> הכשרות</a>
+      <a mat-button class="menu" [routerLink]="'seminarsWithRegistrants/registrantsList'"> ימי עיון עם נרשמים </a>
+      <a mat-button class="menu" [routerLink]="'/'"> סיורים- מערכת מקוונת </a>
+      <a mat-button class="menu" [routerLink]="'/'"> הנצחה </a>
+      <a mat-button class="menu" [routerLink]="'/'"> מבואה</a>
+      <a mat-button class="menu" [routerLink]="'/'"> דוחות </a>
+    </div>
+      <span class="example-spacer"></span>
+      <span class="date">{{fulldate}}</span>
+  </mat-toolbar>
+</p>
